@@ -1,0 +1,372 @@
+<html>
+<head>
+    <link rel="icon" href="Images/favicon.jpeg" type="image/gif" sizes="16x16">
+    <title>Bootstrap Example</title>
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <link rel="stylesheet"  type="text/css" href="style.css">
+       <script src="javascript.js"></script>
+    </head>
+<body>
+   <!-- start of navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <a class="navbar-brand" href="#">
+                <img src="Images/favicon.jpeg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Movie Booking
+              </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#theatres">Theatres</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Movies
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#english">English</a>
+                <a class="dropdown-item" href="#tamil">Tamil</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#telungu">Telungu</a>
+              </div>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <!-- End of navbar -->
+
+      <section id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <section class="carousel-inner">
+            <section class="carousel-item active">
+              <img src="Images/1.jpg" alt="Los Angeles" width="1100" height="500">
+            </section>
+            <section class="carousel-item"> 
+              <img src="Images/2.jpg" alt="Chicago" width="1100" height="500"> 
+            </section>
+            <section class="carousel-item">
+              <img src="Images/3.png" alt="New York" width="1100" height="500">
+            </section>
+          </section>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </section>
+        <!-- start of page -->
+    <section  id="home" class="container  shadow p-3 mb-5  rounded" >
+       <h3 class="font-weight-bold text-uppercase mt-3 mb-4 jumbotron  text-center">HOME</h3>If you are someone who wants to get out of the rut and jump right into the next adventurous activity, then you have come to the right place. Make your plans here: MovieTicket booking offers online movie ticket booking, trailers & reviews, show times, concert tickets & events near Bangalore,Chennai,Hyderabad.
+
+    </section>    
+
+  <section class="container  shadow p-3 mb-5  rounded" id="theatres" >
+     <h3 class="font-weight-bold text-uppercase mt-3 mb-4 jumbotron  text-center">Theatres</h3>  
+     <section class="row">
+        <section class="col-4">
+          <figure>
+            <img src="Images/bg.jpg" alt="Bangalore" style="width: 70%; height: 70%" class="mx-auto d-block">
+            <figcaption >Bangalore</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+           <img src="Images/ch.jpg" alt="Chennai" style="width: 70%; height: 70%" class="mx-auto d-block" >
+           <figcaption>Chennai</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+          <img src="Images/hy.webp" alt="Hyderabad" style="width: 70%; height: 70%" class="mx-auto d-block" >
+          <figcaption>Hyderabad</figcaption>
+          </figure>
+        </section>
+      </section>
+  </section>
+  
+ 
+     
+
+   
+  <section class="container  shadow p-3 mb-5  rounded" id="english" >
+     <h3 class="font-weight-bold text-uppercase mt-3 mb-4 jumbotron text-center">English Movies</h3>  
+     <section class="row">
+        <section class="col-4">
+          <figure>
+            <img src="Images/interstellar.jpg" alt="interstellar" style="width: 70%; height: 70%" class="mx-auto d-block">
+            <figcaption >Interstellar</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+           <img src="Images/quiet_place.jpg" alt="A quiet place" style="width: 70%; height: 70%" class="mx-auto d-block" >
+           <figcaption>A quiet place</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+          <img src="Images/the wife.jpg" alt="interstellar" style="width: 70%; height: 70%" class="mx-auto d-block" >
+          <figcaption>The wife</figcaption>
+          </figure>
+        </section>
+      </section>
+  </section>
+
+  <section class="container  shadow p-3 mb-5  rounded" id="tamil" >
+     <h3 class="font-weight-bold text-uppercase mt-3 mb-4 jumbotron  text-center">Tamil Movies</h3>  
+     <section class="row">
+        <section class="col-4">
+          <figure>
+            <img src="Images/petta.jpg_large" alt="petta" style="width: 70%; height: 70%" class="mx-auto d-block">
+            <figcaption >Petta</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+           <img src="Images/sarkar.jpg" alt="Sarkar" style="width: 70%; height: 70%" class="mx-auto d-block" >
+           <figcaption>Sarkar</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+          <img src="Images/ngk.jpg" alt="ngk" style="width: 70%; height: 70%" class="mx-auto d-block" >
+          <figcaption>NGK</figcaption>
+          </figure>
+        </section>
+      </section>
+  </section>
+
+
+  <section class="container shadow p-3 mb-5  rounded" id="hindi" >
+     <h3 class="font-weight-bold text-uppercase mt-3 mb-4 jumbotron text-center">Hindi Movies</h3>  
+     <section class="row">
+        <section class="col-4">
+          <figure>
+            <img src="Images/a2.jpeg" alt="Aashiqui2" style="width: 70%; height: 70%" class="mx-auto d-block">
+            <figcaption >Aashiqui2</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+           <img src="Images/uri.jpeg" alt="uri" style="width: 70%; height: 70%" class="mx-auto d-block" >
+           <figcaption>URI</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+          <img src="Images/rb.cms" alt="interstellar" style="width: 70%; height: 70%" class="mx-auto d-block" >
+          <figcaption>Rab ne Bana di ka Jodi</figcaption>
+          </figure>
+        </section>
+      </section>
+  </section>
+
+
+  <section class="container shadow p-3 mb-5  rounded" id="telungu" >
+     <h3 class="font-weight-bold text-uppercase mt-3 mb-4 jumbotron text-center">Telungu Movies</h3>  
+     <section class="row">
+        <section class="col-4">
+          <figure>
+            <img src="Images/taxiwala.jpg" alt="taxiwala" style="width: 70%; height: 70%" class="mx-auto d-block">
+            <figcaption >Taxiwala</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+           <img src="Images/ntr.jpg" alt="Nannaku Prematho" style="width: 70%; height: 70%" class="mx-auto d-block" >
+           <figcaption>Nannaku Prematho</figcaption>
+          </figure>
+        </section>
+        <section class="col-4">
+          <figure>
+          <img src="Images/kgf.jpg" alt="kgf" style="width: 70%; height: 70%" class="mx-auto d-block" >
+          <figcaption>K.G.F</figcaption>
+          </figure>
+        </section>
+      </section>
+  </section>
+
+  <!-- Footer -->
+<footer class="page-footer fontall stylish-color-dark pt-4">
+
+    <!-- Footer Links -->
+    <section class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <section class="row">
+
+        <!-- Grid column -->
+        <section class="col-md-4 mx-auto">
+
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4"> BEST LANGUAGE GENRE MOVIES</h5>
+            Hindi Comedy Movies |  Hindi Action Movies | English Animated Movies |  English Fantasy Movies | English Comedy Movies |  English Action Movies | Tamil Action Movies |  Tamil Comedy Movies | Telugu Action Movies |  Gujarati Comedy Movies | Marathi Drama Movies |  Marathi Comedy Movies | Hindi Animated Movies
+
+        </section>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <section class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">exclusives</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </section>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <section class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">now playing</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </section>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <section class="col-md-2 mx-auto">
+
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">next change</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+
+        </section>
+        <!-- Grid column -->
+
+      </section>
+      <!-- Grid row -->
+
+    </section>
+    <!-- Footer Links -->
+
+    <hr>
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Register for free</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-danger btn-rounded">Sign up!</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+
+    <hr>
+
+    <!-- Social buttons -->
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus mx-1">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li mx-1">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble mx-1">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+    </ul>
+    <!-- Social buttons -->
+
+    <!-- Copyright -->
+    <section class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MovieTickets.com</a>
+    </section>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+ 
+
+</body>
+</html>

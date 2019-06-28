@@ -1,0 +1,86 @@
+
+body
+{
+	background-color:#020402;
+	
+
+}
+  #home {padding-top:50px;height:300px;color: #020402; background-color: #b4d4ee;}
+  #theatres {padding-top:50px;height:300px;color: #020402; background-color: #bcebcb;}
+  #english {padding-top:50px;height:400px;color: #020402; background-color: #a7abdd;}
+  #tamil{padding-top:50px;height:370px;color: #020402; background-color: #a5c4d4;}
+  #hindi {padding-top:50px;height:400px;color: #020402; background-color: #9eae90;}
+  #telungu {padding-top:50px;height:400px;color: #020402; background-color: #edd4b2;}
+
+
+  .affix {
+    top: 20px;
+    z-index: 9999 !important;
+  }
+  .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  
+}
+  .carousel-inner video {
+    width: 100vw;
+    height: 50vh;
+    
+  }
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    max-width: 250px;
+    max-height: 250px;
+}
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  #theatres {
+   height: 500px;
+  }
+  #english,#hindi,#telungu
+  {
+  	height: 900px;
+  }
+  #tamil
+  {
+  	height: 800px;
+  }
+}
+@media only screen and (max-width: 800px) and (min-width:575px) {
+  #theatres {
+   height: 300px;
+  }
+  #english,#hindi,#telungu
+  {
+  	height: 350px;
+  }
+  #tamil
+  {
+  	height: 320px;
+  }
+}
+ .bg-custom
+ {
+ 	background-color:#f78e69;
+ }
+ .navbar-right
+ {
+ 	float: right;
+ }
